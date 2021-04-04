@@ -17,7 +17,7 @@ export default {
     >
       <img
         :src="avatar"
-        alt="org avatar"
+        :alt="`avatar for ${login}`"
         class="h-5 w-5 rounded-full"
       >
     </router-link>

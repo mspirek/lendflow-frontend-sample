@@ -39,7 +39,7 @@ export default {
   >
     <img
       :src="orgDetails.avatar_url"
-      :alt="`avatar for ${orgDetails.company}`"
+      :alt="`avatar for ${orgDetails.company ? orgDetails.company : 'organization'}`"
       class="rounded h-24 w-24 block mr-6"
     >
     <div>

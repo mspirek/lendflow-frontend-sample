@@ -25,7 +25,7 @@ export default {
     <button
       @click="toggleMenu"
       class="md:hidden absolute left-0 ml-4"
-    >s
+    >
       <svg
         height="24"
         class="text-white fill-current hover:text-gray-400"
